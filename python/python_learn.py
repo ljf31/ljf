@@ -63,3 +63,7 @@ rt = datepat.findall(text)
 print rt
 rp = datepat.sub(r'\3-\1-\2', text)
 print rp
+
+lt = [1, 2, 3]
+lt.extend([4, 5])
+print lt
