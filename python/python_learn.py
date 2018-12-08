@@ -67,3 +67,8 @@ print rp
 lt = [1, 2, 3]
 lt.extend([4, 5])
 print lt
+
+import hashlib
+md5 = hashlib.md5()
+md5.update('welcom to python hashlib'.encode('utf-8'))
+print md5.hexdigest()
